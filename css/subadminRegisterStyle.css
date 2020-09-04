@@ -1,0 +1,196 @@
+  body{
+		
+		background: linear-gradient(to left, #ffe259 , #ffa751);
+		font-family: 'Roboto', sans-serif;
+		min-height: 100%;
+		padding-bottom: 20vh;
+		position: relative;
+	}
+	
+
+  .form-control{
+		height: 40px;
+		box-shadow: none;
+		color: #969fa4;
+	}
+	.form-control:focus{
+		border-color: #5cb85c;
+	}
+    .form-control, .btn{        
+        border-radius: 3px;
+    }
+	.signup-form{
+		width: 400px;
+		margin: 0 auto;
+		padding: 30px 0;
+	}
+	.signup-form h2{
+		color: #636363;
+        margin: 0 0 15px;
+		position: relative;
+		text-align: center;
+    }
+	.signup-form h2:before, .signup-form h2:after{
+		content: "";
+		height: 2px;
+		width: 10%;
+		background: #d4d4d4;
+		position: absolute;
+		top: 50%;
+		z-index: 2;
+	}	
+	.signup-form h2:before{
+		left: 0;
+	}
+	.signup-form h2:after{
+		right: 0;
+	}
+    .signup-form .hint-text{
+		color: #999;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+    .signup-form form{
+		color: #999;
+		border-radius: 3px;
+    	margin-bottom: 15px;
+        background: #f2f3f7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+	.signup-form .form-group{
+		margin-bottom: 20px;
+	}
+	.signup-form input[type="checkbox"]{
+		margin-top: 3px;
+	}
+	.signup-form .btn{        
+        font-size: 16px;
+        font-weight: bold;		
+		min-width: 140px;
+        outline: none !important;
+    }
+	.signup-form .row div:first-child{
+		padding-right: 10px;
+	}
+	.signup-form .row div:last-child{
+		padding-left: 10px;
+	}    	
+    .signup-form a{
+		color: #fff;
+		text-decoration: underline;
+	}
+    .signup-form a:hover{
+		text-decoration: none;
+	}
+	.signup-form form a{
+		color: #5cb85c;
+		text-decoration: none;
+	}	
+	.signup-form form a:hover{
+		text-decoration: underline;
+	} 
+
+
+	.content {
+	position: relative;
+    padding-bottom: 20vh;
+
+}
+
+.table-scrol {
+	margin-top: 25px;
+}
+
+#site-footer {
+	background-color: #373a48;
+	color:white;
+	height: 207px;
+	position: absolute;
+	 left: 0 ; right: 0; bottom: 0; 
+	 margin-bottom: -10vh;
+
+}
+#site-footer .custom-list {
+	margin-top: 40px;	color: #fff !important;
+}
+
+#site-footer li a {
+	color: #ccc;
+	font-family: 'Roboto Slab', serif;
+}
+#site-footer .social-networks {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 0;
+}
+
+#site-footer .social-networks a {
+	margin-right: 5px;
+    margin-left: 5px;
+	font-size: 32px;
+	color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+	
+}
+#site-footer .social-networks a:hover{
+	text-decoration: none;
+
+}
+
+#site-footer .facebook:hover{
+	color:#3B5998;
+}
+
+#site-footer .google:hover{
+	color:#D44638;
+}
+
+#site-footer .twitter:hover{
+	color: #55ACEE;
+}
+
+#site-footer .footer-copyright{
+	background-color: #383737;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
+}
+
+#site-footer .footer-copyright p{
+	margin:10px;
+	color: #ccc;
+}
+#site-footer span {
+	font-family: 'Lobster', cursive;
+	letter-spacing: 0.5px;
+	color: #fff;
+}
+.jumbotron .display-4 {
+	font-family: 'Bungee Shade', cursive;
+}
+.navbar-custom .navbar-brand:hover {
+	color: #fff;
+}
+#site-footer a:hover, #site-footer a:focus{
+	text-decoration: none;
+	color:white;
+}
+
+@media screen and (max-width: 767px){
+	#site-footer {
+		background-color: #373a48;
+		color:white;
+		height: auto;
+		position: absolute;
+		left: 0 ; right: 0; bottom: 0; 
+		margin-bottom: -200px;
+
+	}
+
+}
+
+
+
+

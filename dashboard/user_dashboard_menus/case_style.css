@@ -1,0 +1,136 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body {
+	
+	background: #ffff;
+	min-height: 100%;
+	position: relative;
+	padding-bottom: 20vh;
+}
+
+.navbar-custom {
+	background: #ffff;
+	-webkit-box-shadow:0 -0.4rem 0.9rem 0.2rem rgba(0,0,0,.5);
+	-moz-box-shadow: -0.4rem 0.9rem 0.2rem rgba(0,0,0,.5):;
+	box-shadow:0 -0.4rem 0.9rem 0.2rem rgba(0,0,0,.5);	
+	
+}
+#navbarSupportedContent li a{
+	color: grey;
+	font-family: 'Kanit', sans-serif;
+	/*font-family: 'Lato', sans-serif; */
+	font-size: 1.1em;
+}
+#navbarSupportedContent a:hover {
+	color: #000 !important;
+}
+.navbar-brand {
+	color: #ffc324 !important;
+	font-family: 'Cinzel', serif;
+	font-size: 1.7em;
+}
+.jumbotron {
+	background: rgba(0,0,0,0.0001) !important;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 4%;
+}
+.content {
+	position:relative; 
+    padding-bottom: 20vh;
+    font-family: 'Lato', sans-serif;
+}
+
+#site-footer {
+	background-color: #373a48;
+	color:white;
+	height: 200px;
+	position: absolute;
+	 left: 0 ; right: 0; bottom: 0; 
+	 margin-bottom: -50vh;
+
+}
+#site-footer .custom-list {
+	margin-top: 40px;	color: #fff !important;
+}
+
+#site-footer li a {
+	color: #ccc;
+	font-family: 'Roboto Slab', serif;
+}
+#site-footer .social-networks {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 0;
+}
+
+#site-footer .social-networks a {
+	margin-right: 5px;
+    margin-left: 5px;
+	font-size: 32px;
+	color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+	
+}
+#site-footer .social-networks a:hover{
+	text-decoration: none;
+
+}
+
+#site-footer .facebook:hover{
+	color:#3B5998;
+}
+
+#site-footer .google:hover{
+	color:#D44638;
+}
+
+#site-footer .twitter:hover{
+	color: #55ACEE;
+}
+
+#site-footer .footer-copyright{
+	background-color: #383737;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
+}
+
+#site-footer .footer-copyright p{
+	margin:10px;
+	color: #ccc;
+}
+#site-footer span {
+	font-family: 'Lobster', cursive;
+	letter-spacing: 0.5px;
+	color: #fff;
+}
+
+
+#site-footer a:hover, #site-footer a:focus{
+	text-decoration: none;
+	color:white;
+}
+.jumbotron .display-4 {
+	font-family: 'Bungee Shade', cursive;
+}
+
+
+@media screen and (max-width: 767px){
+	#site-footer {
+		background-color: #373a48;
+		color:white;
+		height: auto;
+		position: absolute;
+		left: 0 ; right: 0; bottom: 0; 
+		margin-bottom: -200px;
+
+	}
+
+}
+
+
+
+

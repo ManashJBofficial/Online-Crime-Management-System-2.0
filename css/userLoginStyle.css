@@ -1,0 +1,19 @@
+body {
+	background: linear-gradient(to left, #ffe259 , #ffa751);
+	padding-top: 25vh;
+}
+form {
+	background: #fff;
+}
+.form-container {
+	border-radius: 10px;
+	padding: 30px;
+	box-shadow: 0px 0px 10px 0px;
+}
+.bg {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: -34px;
+	left: 40%;
+}

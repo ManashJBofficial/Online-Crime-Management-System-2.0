@@ -30,9 +30,7 @@
 				</form>
 			</section>
 		</section>
-		
 	</section>
-	
 	<div class="fixed-action-btn">
     <a href="index.php" class="btn-floating waves-effect waves-red red white-text btn-large pulse">Home</a>
   </div>

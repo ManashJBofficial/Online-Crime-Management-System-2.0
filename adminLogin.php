@@ -28,9 +28,14 @@
 					  	</div>
 					  	<button type="submit" class="btn btn-primary btn-block" name="submit" onclick="return valid_login()">Login</button>
 				</form>
+				<p class="my-5 text-center">For demo purpose - <br>
+				Admin Username is: admin<br>
+				Admin Password is : 123</p>
+				
 			</section>
 		</section>
 	</section>
+	
 	<div class="fixed-action-btn">
     <a href="index.php" class="btn-floating waves-effect waves-red red white-text btn-large pulse">Home</a>
   </div>

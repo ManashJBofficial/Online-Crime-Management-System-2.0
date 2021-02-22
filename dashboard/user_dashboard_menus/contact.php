@@ -58,10 +58,8 @@ $x=$_SESSION['vid'];
     <div class="card-body text-center py-5">
       <i class="fas fa-map-marker-alt fa-4x"></i>
       <h4 class="card-title py-3">Address</h4>
-      <h5 class="card-text">Kamakhya Gate, Durgasarovar, N.N Path</h5>
-      <h5 class="card-text">Landmark : Vishwakarma Temple</h5>
-      <h5 class="card-text">PO : Bharalumukh</h5>
-      <h5 class="card-text">PS : Jalukbari</h5>
+      <h5 class="card-text">Ganeshguri, Guwahati</h5>
+      <h5 class="card-text">Assam</h5>
       
     </div>
     
@@ -73,7 +71,7 @@ $x=$_SESSION['vid'];
       <div class="htext">
       <h4 class="card-title py-3" >Phone</h4>
   </div>
-      <h5 class="card-title">Mobile : 8638043871 / 8486326157</h5>
+      <h5 class="card-title">Mobile : 8636543178 / 8446326157</h5>
       <h5 class="card-title">Landline : 0361-269-4021 / 0361-444-6611</h5>
     </div>
     

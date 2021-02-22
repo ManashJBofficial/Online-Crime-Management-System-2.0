@@ -22,29 +22,28 @@ session_start();
 				<img src="img/user.png" class="bg">
 				<form class="form-container" action="php/user_login.php" method="POST" name="LoginForm">
 						<h2 class="text-center font-weight-bold">User Login</h2>
-
 						<div class="form-group">
-					    
 					    <input type="text" class="form-control" id="vid" aria-describedby="emailHelp" placeholder="Victim ID" name="vid">
 					    </div>
 			  			<div class="form-group">
-					    
 					    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username" name="uname">
 					    </div>
 					 	<div class="form-group">
-					    
-					    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="pass">
-					  	</div>
-					  	
-					  		<button type="submit" class="btn btn-primary btn-block" name="submit" onclick="return valid_login()">Login</button>
-					  	
+						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="pass">
+						</div>
+					<button type="submit" class="btn btn-primary btn-block" name="submit" onclick="return valid_login()">Login</button>
 				</form>
+				
 			</section>
 		</section>
 		
 	</section>
 
 	<div class="text-center">New Here?  <a href="userSignup.php" style="color: red;">Sign up</a></div>
+	<p class="my-5 text-center">For demo purpose - <br>
+				User uid is: z7653<br>
+				SubAdmin Username is : zoya7 <br>
+				SubAdmin Password is: 1234</p>
 	<div class="fixed-action-btn">
     	<a href="index.php" class="btn-floating waves-effect waves-red red white-text btn-large pulse">Home</a>
  	</div>

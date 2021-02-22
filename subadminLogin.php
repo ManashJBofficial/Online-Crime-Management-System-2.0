@@ -32,6 +32,10 @@ session_start();
 					  	</div>
 					  	<button type="submit" class="btn btn-primary btn-block" name="submit" onclick="return valid_login()">Login</button>
 				</form>
+				<p class="my-5 text-center">For demo purpose - <br>
+				SubAdmin ioid is: j2314<br>
+				SubAdmin Username is : julia2 <br>
+				SubAdmin Password is: 1234</p>
 			</section>
 		</section>
 		
